@@ -1,48 +1,48 @@
-/ * http://meyerweb.com/eric/tools/css/reset/ 
+/*
    v2.0 | 20110126
-   Licencia: ninguna (dominio público)
-* /
+   License: none (public domain)
+*/
 
-html, body, div, span, applet, objeto, iframe,
+html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acrónimo, dirección, grande, citar, código,
+a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
-pequeño, huelga, fuerte, sub, sup, tt, var,
-b, u, i, centro,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
 dl, dt, dd, ol, ul, li,
-fieldset, forma, etiqueta, leyenda,
-tabla, título, tbody, tfoot, thead, tr, th, td,
-Artículo, aparte, lienzo, detalles, incrustar, 
-figura, figcaption, pie de página, encabezado, hgroup, 
-menú, navegación, salida, rubí, sección, resumen,
-tiempo, marca, audio, video {
-	margen: 0;
-	relleno: 0;
-	borde: 0;
-	tamaño de letra: 100%;
-	fuente: heredar;
-	alineación vertical: línea de base;
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
-/ * Reinicio de la función de visualización de HTML5 para navegadores antiguos * /
-artículo, aparte, detalles, figcaption, figura, 
-pie de página, encabezado, hgroup, menú, navegación, sección {
-	bloqueo de pantalla;
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
 }
-cuerpo {
-	línea de altura: 1;
+body {
+	line-height: 1;
 }
 ol, ul {
-	estilo de lista: ninguno;
+	list-style: none;
 }
 blockquote, q {
-	citas: ninguna;
+	quotes: none;
 }
-blockquote: antes, blockquote: después,
-q: antes q q después
-	contenido: '';
-	contenido: ninguno;
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
 }
-mesa {
-	colapso de la frontera: colapso;
-	espaciado de la frontera: 0;
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
