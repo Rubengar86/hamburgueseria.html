@@ -14,7 +14,13 @@ font-family: 'Handlee', cursive;
 body{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
+}
 
+.row:after{
+	content: "";
+	height: 0px;
+	display: block;
+	clear: both;
 }
 
 h1{
@@ -32,11 +38,11 @@ h1{
 
 /*hero */
 
-header.submenu{
+header .submenu{
 	background-color: #21242e;
-	color-white;
+	color: white;
 	text-align: left;
-
+	padding: 20px 0px;
 
 }
 
@@ -44,7 +50,7 @@ header .submenu .container div{
 	width: 25%;
 	float: left; 
 	padding-left: 20px;
-	padding: 10px 0px;
+
 }
 
 header .submenu a{
@@ -60,13 +66,52 @@ header .submenu .container div:last-child{
 text-align: right;
 }
 
+header .submenu i{
+	color: #fa573a;
+	margin-right: 5px;
+}
+
 header .submenu .container div:nth-child(3){
 text-align: right;
 }
 
-.row:after{
-	content: "";
-	height: 0px;
-	display: block;
-	clear: both;
+header nav{
+	background-color: white;
+	padding: 20px 0px;
+
+}
+
+header nav .logo {
+	width: 100px;
+	height: auto;
+	float: left;
+}
+
+header nav .menu {
+	float: right;
+	padding-top: 5px;
+
+}
+
+header nav .menu li{
+	display:  inline-block;
+	margin-left: 15px;
+}
+
+header nav a{
+	text-decoration: none;
+	color: #666;
+}
+
+header nav a:hover{
+	color: #fa573a;
+}
+
+header nav .activo{
+	color: #fa573a;
+}
+
+img{
+	width: 100%;
+	height: auto;
 }
