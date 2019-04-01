@@ -115,3 +115,62 @@ img{
 	width: 100%;
 	height: auto;
 }
+
+/* Fin de header*/
+
+/*inicio de Hero*/
+
+.hero{
+
+	background-image: url(../images/hamburguesa-de-mijo-con-pan.jpg);
+	background-color: #444;
+	height: 600px; 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center right;
+	background-blend-mode: soft-light;
+}
+
+.hero>div{
+	padding: 12% 15%;
+	color: white;
+}
+
+.hero>div h2{
+	font-size: 250%;
+	font-family: 'Handlee', cursive;
+	
+}
+
+.hero>div h3{
+	margin: 20px 0px;
+	font-size: 1.25em;
+	color: #fa573a;
+}
+
+.hero>div div a{
+	background-color: #fa573a;
+	color: white;
+	text-decoration: none;
+	padding: 15px;
+	display: inline-block;
+	margin: 20px 0px;
+	border: 2px solid #fa573a;
+}
+
+.hero>div div a:hover{
+	background-color: transparent;
+	color: #fa573a;
+	border: 2px solid #fa573a;
+	
+}
+
+.hero .social li{
+	display: inline-block;
+	margin-right: 30px;
+	font-size: 24px;
+}
+
+.hero .social li a {
+	color:white;
+}
