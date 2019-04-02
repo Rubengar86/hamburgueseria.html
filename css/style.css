@@ -23,8 +23,9 @@ body{
 	clear: both;
 }
 
-h1{
-	font-size: 
+h3{
+	margin:20px 0px;
+	font-size: 1.25em;
 }
 
 .container-fluid{
@@ -143,12 +144,11 @@ img{
 }
 
 .hero>div h3{
-	margin: 20px 0px;
-	font-size: 1.25em;
+
 	color: #fa573a;
 }
 
-.hero>div div a{
+.boton{
 	background-color: #fa573a;
 	color: white;
 	text-decoration: none;
@@ -158,7 +158,7 @@ img{
 	border: 2px solid #fa573a;
 }
 
-.hero>div div a:hover{
+.boton:hover{
 	background-color: transparent;
 	color: #fa573a;
 	border: 2px solid #fa573a;
@@ -218,6 +218,57 @@ main section .underline span{
 	position: absolute;
 	top:7.5px;
 	left: 51px;
-	color: #fa573a
+	color: #fa573a;
 
 }
+
+main section .flex{
+	display: flex;
+	flex-wrap: wrap;
+	/* flex-wrap: wrap es para bajar las columnas poniendo el ancho de las columnas;*/
+	/* seciontion article { width: x%; } en este caso en concreto seria main our service*/
+}
+main #ourservices article{
+	width: 33%;
+	border-left: 1px solid #ccc;
+	padding: 0px 25px;
+ }
+
+main #ourservices article .icon{
+	color: #fa573a;
+	font-size: 20px;
+	padding: 10px;
+	border: 2px solid #fa573a;
+}
+
+.fas-fa-truck{
+	transform: rotateY(180deg);
+	margin-bottom: 20%;
+}
+
+main section h3{
+	font-weight: 700;
+}
+
+main section p{
+	line-height: 1.5;
+	color: #666;
+	
+}
+
+
+.enlace{
+	text-decoration: none;
+	color: #fa573a;
+	font-weight: 700;
+	margin-top: 20px;
+	display: inline-block;
+	/*display: inline -block es para apretar el enlace justo en el enlace, en lo que esta escrito;*/
+}
+
+.enlace:hover i{
+	margin-left: 5px;
+	transition: .5s;
+}
+
+main section
